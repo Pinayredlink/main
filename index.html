@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<header>
+	 <nav class="navbar">
+        <ul class="web-name">
+            <li><a href="" id="lled">Lled</a></li>
+            <li><a href="" id="link">Link</a></li>
+        </ul>
+        <ul class="menu" id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+</header>
+<div class="content" id="content">
+		<!--Space for Responsive NavBar-->
+</div>
+
+<div class="video-container">	
+	<div class="content-title">
+		<h1>Latest Upload</h1>
+	</div>
+
+	<div id="main-ads-button">
+		<a href=""> </a>
+	</div>
+
+	<div class="video-card">
+		<div class="video-thumb">
+			<a href="" id="video-thumb"><img src="result-3.png"></a>
+			<button class="play-button"><img src="#" class="video-ads" id="video-ads"></a>&#9658;</button>	
+		</div>
+		<div class="video-title">
+			<a href="">video ti dsddfdfsfdsddsfdddsfd sd sfd sdf dsf d sdffd sds sd ds ds ds sd sd ds dss sfadfdsadfasd</a>
+			<div class="title-ads" id="title-ads">
+				<p> </p>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="video-card">
+		<div class="video-thumb">
+			<a href="" id="video-thumb"><img src="result-3.png"></a>
+			<button class="play-button"><img src="#" class="video-ads" id="video-ads2"></a>&#9658;</button>	
+		</div>
+		<div class="video-title">
+			<a href="">video ti dsddfdfsfdsddsfdddsfd sd sfd sdf dsf d sdffd sds sd ds ds ds sd sd ds dss sfadfdsadfasd</a>
+			<div class="title-ads" id="title-ads2">
+				<p> </p>
+			</div>
+		</div>
+	</div>
+
+	<div class="video-card">
+		<div class="video-thumb">
+			<a href="" id="video-thumb"><img src="result-3.png"></a>
+			<button class="play-button"><img src="#" class="video-ads" id="video-ads3"></a>&#9658;</button>	
+		</div>
+		<div class="video-title">
+			<a href="">video ti dsddfdfsfdsddsfdddsfd sd sfd sdf dsf d sdffd sds sd ds ds ds sd sd ds dss sfadfdsadfasd</a>
+			<div class="title-ads" id="title-ads3">
+				<p> </p>
+			</div>
+		</div>
+	</div>
+
+	
+</div>
+
+
+
+	<script>
+
+	    document.getElementById("menuToggle").addEventListener("click", function () {
+	    var menu = document.getElementById("menu");
+	    menu.classList.toggle("show");
+	    var content = document.getElementById("content");
+	    content.classList.toggle("show");
+		});
+
+		// Add JavaScript to handle the click event
+        document.getElementById("main-ads-button").addEventListener("click", function() {
+            // This will open a new URL in a new tab/window when the ad button is clicked
+            window.open("https://www.example.com", "_blank");
+            this.style.display = "none";
+        });       
+
+        // Add JavaScript to handle the click event
+        document.getElementById("video-ads").addEventListener("click", function() {
+            // This will open a new URL in a new tab/window when the ad button is clicked
+            window.open("https://www.example.com", "_blank");
+            this.style.display = "none";
+        });
+        
+        // Add JavaScript to handle the click event
+        document.getElementById("title-ads").addEventListener("click", function() {
+            // This will open a new URL in a new tab/window when the ad button is clicked
+            window.open("https://www.example.com", "_blank");
+            this.style.display = "none";
+        });
+        
+        document.getElementById("video-ads2").addEventListener("click", function() {
+            // This will open a new URL in a new tab/window when the ad button is clicked
+            window.open("https://www.example.com", "_blank");
+            this.style.display = "none";
+        });
+        
+        // Add JavaScript to handle the click event
+        document.getElementById("title-ads2").addEventListener("click", function() {
+            // This will open a new URL in a new tab/window when the ad button is clicked
+            window.open("https://www.example.com", "_blank");
+            this.style.display = "none";
+        });
+
+        document.getElementById("video-ads3").addEventListener("click", function() {
+            // This will open a new URL in a new tab/window when the ad button is clicked
+            window.open("https://www.example.com", "_blank");
+            this.style.display = "none";
+        });
+        
+        // Add JavaScript to handle the click event
+        document.getElementById("title-ads3").addEventListener("click", function() {
+            // This will open a new URL in a new tab/window when the ad button is clicked
+            window.open("https://www.example.com", "_blank");
+            this.style.display = "none";
+        });
+
+    </script>
+</body>
+</html>
