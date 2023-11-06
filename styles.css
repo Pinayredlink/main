@@ -35,7 +35,7 @@ body{
 .menu li:hover{
     color: #FFFFFF;
     background: rgba(255,0,0,.4);
-    box-shadow: 0 0 10px #FF0000/*, 0 0 40px #FF0000, 0 0 80px #FFFF00*/;
+    box-shadow: 0 0 10px #FF0000, 0 0 40px #FF0000/*, 0 0 80px #FFFF00*/;
 }
 .navbar {
     background-color: rgba(0,0,0,.7);
@@ -189,7 +189,7 @@ body{
 .video-card:hover{
 	color: #FFFFFF;
     background: black;
-    box-shadow: 0 0 10px #FF0000, 0 0 40px #FF0000/*, 0 0 80px #FFFF00*/;
+    box-shadow: 0 0 10px #FF0000/*, 0 0 40px #FF0000, 0 0 80px #FFFF00*/;
 }
 
 /*Ads*/
