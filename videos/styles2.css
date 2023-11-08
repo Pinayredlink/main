@@ -86,7 +86,7 @@ body{
 	display: none;
 }
 /* Media query for mobile responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .menu {
         display: none;
         flex-direction: column;
