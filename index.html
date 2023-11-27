@@ -1,144 +1,130 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>PinayRedlink</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+    <link rel="stylesheet" href="/styles/styles.css">
 </head>
+<style type="text/css">
+
+
+</style>
 <body>
-<header>
-	 <nav class="navbar">
-        <ul class="web-name">
-            <li><a href="" id="pinay">Pinay</a></li>
-            <li><a href="" id="red">Red</a></li>
-            <li><a href="" id="link">Link</a></li>
+<div class="header">
+    <nav>
+        <ul>
+            <li id="pinay"><a href="">Pinay</a></li>
+            <li id="red"><a href="">Red</a></li>
+            <li id="link"><a href="">link</a></li>
         </ul>
-    <!--    <ul class="menu" id="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-        <div class="menu-toggle" id="menuToggle">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>  -->
     </nav>
-</header>
-<div class="content" id="content">
-		<!--Space for Responsive NavBar-->
+</div>
+<div class="container">
+	<div class="list-title">
+        <h1>Latest Upload</h1>
+    </div>
+	<div class="video-container">
+        <a href="page1.html" onclick="copy1()" id="video-card1">
+            <div class="video-card">
+                <video src="/videos/1127(1).mp4" class="clip" muted id="video1"></video>
+                <div class="video-info">
+                    <p id="main-video-title1">Wait lang muna baby nag quicky lang si mommy at daddy. </p>
+                </div>
+            </div>
+        </a>
+        
+        <a href="page1.html" onclick="copy2()" id="video-card2">
+            <div class="video-card">
+                <video src="/videos/1127(2).mp4" class="clip" muted id="video2"></video>
+                <div class="video-info">
+                    <p id="main-video-title2"> Baby face lang pero meron nang malalaking kabundokan sa probinsya. </p>
+                </div>
+            </div>
+        </a>
+
+        <a href="page1.html" onclick="copy3()" id="video-card3">
+            <div class="video-card">
+                <video src="/videos/1127(3).mp4" class="clip" muted id="video3"></video>
+                <div class="video-info">
+                    <p id="main-video-title3"> Ako muna mag drive baby alam ko na pagod ka galing trabaho. </p>
+                </div>
+            </div>
+        </a>
+
+        <a href="page1.html" onclick="copy4()" id="video-card4">
+            <div class="video-card">
+                <video src="/videos/1127(4).mp4" class="clip" muted id="video4"></video>
+                <div class="video-info">
+                    <p id="main-video-title4"> Iba yung pinag aralan ng mag classmate. </p>
+                </div>
+            </div>
+        </a>
+
+        <a href="page1.html" onclick="copy5()" id="video-card5">
+            <div class="video-card">
+                <video src="/videos/1127(5).mp4" class="clip" muted id="video5"></video>
+                <div class="video-info">
+                    <p id="main-video-title5"> Kaya kuna to babe higa ka lang dyan. </p>
+                </div>
+            </div>
+        </a>
+
+        <a href="page1.html" onclick="copy6()" id="video-card6">
+            <div class="video-card">
+                <video src="/videos/1127(6).mp4" class="clip" muted id="video6"></video>
+                <div class="video-info">
+                    <p id="main-video-title6"> Nakabored na sa TikTok kaya lipat tayo sa OnlyFans. </p>
+                </div>
+            </div>
+        </a>
+
+        <a href="page1.html" onclick="copy7()" id="video-card7">
+            <div class="video-card">
+                <video src="/videos/1127(7).mp4" class="clip" muted id="video7"></video>
+                <div class="video-info">
+                    <p id="main-video-title7"> Masage ko lang to saglit. </p>
+                </div>
+            </div>
+        </a>
+        
+        <a href="page1.html" onclick="copy8()" id="video-card8">
+            <div class="video-card">
+                <video src="/videos/1127(8).mp4" class="clip" muted id="video8"></video>
+                <div class="video-info">
+                    <p id="main-video-title8"> Lf kasabay maligo. </p>
+                </div>
+            </div>
+        </a>
+
+        <a href="page1.html" onclick="copy9()" id="video-card9">
+            <div class="video-card">
+                <video src="/videos/1127(9).mp4" class="clip" muted id="video9"></video>
+                <div class="video-info">
+                    <p id="main-video-title9"> Nadala ni captain-ball sa kwarto si cheerleader. </p>
+                </div>
+            </div>
+        </a>
+
+        <a href="page1.html" onclick="copy10()" id="video-card10">
+            <div class="video-card">
+                <video src="/videos/1127(10).mp4" class="clip" muted id="video10"></video>
+                <div class="video-info">
+                    <p id="main-video-title10"> Nag practice kasi gawin daw siyang muse. </p>
+                </div>
+            </div>
+        </a>
+       
+	</div>
+
 </div>
 
-<div class="video-container">	
-	<div class="content-title">
-		<h1>Latest Upload</h1>
-	</div>
-
-	<div id="main-ads-button">
-		<a href=""> </a>
-	</div>
-
-	<div class="video-card">
-		<div class="video-thumb">
-			<a href="videos/vid1.html" id="video-thumb"><img src="videos/thumb/20231108_191209.jpg"></a>
-			<button class="play-button"><img src="#" class="video-ads" id="video-ads"></a>&#9658;</button>	
-		</div>
-		<div class="video-title">
-			<a href="">Nag-aral sa kwarto ni klasmate bago umuwi.</a>
-			<div class="title-ads" id="title-ads">
-				<p> </p>
-			</div>
-		</div>
-	</div>
-
-	
-	<div class="video-card">
-		<div class="video-thumb">
-			<a href="videos/vid2.html" id="video-thumb"><img src="videos/thumb/20231108_190549.png"></a>
-			<button class="play-button"><img src="#" class="video-ads" id="video-ads2"></a>&#9658;</button>	
-		</div>
-		<div class="video-title">
-			<a href="">Maliit kasi yung kita sa tiktok.</a>
-			<div class="title-ads" id="title-ads2">
-				<p> </p>
-			</div>
-		</div>
-	</div>
-
-	<div class="video-card">
-		<div class="video-thumb">
-			<a href="videos/vid3.html" id="video-thumb"><img src="videos/thumb/20231108_190031.jpg"></a>
-			<button class="play-button"><img src="#" class="video-ads" id="video-ads3"></a>&#9658;</button>	
-		</div>
-		<div class="video-title">
-			<a href="">Sakto walang tao sa kubo ni lolo.</a>
-			<div class="title-ads" id="title-ads3">
-				<p> </p>
-			</div>
-		</div>
-	</div>
-
-	
-</div>
-
-
-
-	<script>
-
-	 /*   document.getElementById("menuToggle").addEventListener("click", function () {
-	    var menu = document.getElementById("menu");
-	    menu.classList.toggle("show");
-	    var content = document.getElementById("content");
-	    content.classList.toggle("show");
-		}); */
-
-		// Add JavaScript to handle the click event
-        document.getElementById("main-ads-button").addEventListener("click", function() {
-            // This will open a new URL in a new tab/window when the ad button is clicked
-            window.open("https://bit.ly/464huQT", "_blank");
-            this.style.display = "none";
-        });       
-
-        // Add JavaScript to handle the click event
-        document.getElementById("video-ads").addEventListener("click", function() {
-            // This will open a new URL in a new tab/window when the ad button is clicked
-            window.open("https://bit.ly/3Sqbu1I", "_blank");
-            this.style.display = "none";
-        });
-        
-        // Add JavaScript to handle the click event
-        document.getElementById("title-ads").addEventListener("click", function() {
-            // This will open a new URL in a new tab/window when the ad button is clicked
-            window.open("https://bit.ly/3suneWc", "_blank");
-            this.style.display = "none";
-        });
-        
-        document.getElementById("video-ads2").addEventListener("click", function() {
-            // This will open a new URL in a new tab/window when the ad button is clicked
-            window.open("https://bit.ly/4646keQ", "_blank");
-            this.style.display = "none";
-        });
-        
-        // Add JavaScript to handle the click event
-        document.getElementById("title-ads2").addEventListener("click", function() {
-            // This will open a new URL in a new tab/window when the ad button is clicked
-            window.open("https://bit.ly/3suneWc", "_blank");
-            this.style.display = "none";
-        });
-
-        document.getElementById("video-ads3").addEventListener("click", function() {
-            // This will open a new URL in a new tab/window when the ad button is clicked
-            window.open("https://bit.ly/3u5qb01", "_blank");
-            this.style.display = "none";
-        });
-        
-        // Add JavaScript to handle the click event
-        document.getElementById("title-ads3").addEventListener("click", function() {
-            // This will open a new URL in a new tab/window when the ad button is clicked
-            window.open("https://bit.ly/3suneWc", "_blank");
-            this.style.display = "none";
-        });
-
-    </script>
+<script>
+  
+</script>
+<script src="/script/ads.js"></script>
+<script src="/script/javascript.js"></script>
+<script src="/script/assigner.js"></script>
+<script src="/script/video_src_title.js"></script>
 </body>
 </html>
