@@ -165,7 +165,7 @@ a{
         height: 141px;
     }
     .video-info p {
-        font-size: 1.1rem;
+        font-size: .9rem;
     }
 }
 @media(max-width: 260px){
@@ -179,6 +179,9 @@ a{
     }
     .video-info p {
         font-size: 1rem;
+    }
+	.list-title h1{
+        font-size: 30px;
     }
 }
 @media(max-width: 220px){
