@@ -1,1 +1,93 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+a{
+    cursor: default;
+}
+/*Header*/
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(205, 7, 40, 0.2);
+}
+.header nav{
+    border-style: none;
+}
+.header nav ul li{
+    display: inline-block;
+}
+.header nav ul li a{
+    text-decoration: none;
+}
+
+/*Website Logo*/
+#pinay a{
+    font-size: 35px;
+    color: white;
+}
+#red a{
+    font-size: 35px;
+    color: red;
+}
+#link a{
+    color: white;
+    font-size: 20px;
+}
+/*//////////////////////////////*/
+
+
+/*Video-List*/
+.video-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+    position: relative;
+}
+.list-title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.list-title{
+    color: rgba(205, 7, 40, 0.5);
+}
+.video-card {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+}
+.video-card video:hover{
+    
+    box-shadow: 0 0 10px  rgba(205, 7, 40, 0.5);
+}
+.video-card video {
+    width: 300px;
+    height: 200px;
+    background-color:rgba(205, 7, 40, 0.09);
+    box-shadow: 0 0 2px  rgba(205, 7, 40, 0.5);
+    cursor: pointer;
+}
+.video-info {
+    background-color: red;
+    margin: 5px;
+    position: relative;
+}
+.video-info p {
+    margin: 0;
+    font-size: 1.2rem;
+    position: absolute;
+    color: #777;
+    cursor: pointer;
+}
+.video-info p:hover{
+    color: rgba(205, 7, 40, 0.5);
+}
+
+/*Responsive Video Card*/
 
