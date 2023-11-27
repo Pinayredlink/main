@@ -58,6 +58,7 @@ a{
 .video-card {
     width: 300px;
     height: 300px;
+    
     overflow: hidden;
     margin: 10px;
     position: relative;
@@ -67,8 +68,8 @@ a{
     box-shadow: 0 0 10px  rgba(205, 7, 40, 0.5);
 }
 .video-card video {
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    height: 169px;
     background-color:rgba(205, 7, 40, 0.09);
     box-shadow: 0 0 2px  rgba(205, 7, 40, 0.5);
     cursor: pointer;
@@ -90,4 +91,119 @@ a{
 }
 
 /*Responsive Video Card*/
-
+@media(max-width: 978px){
+    .video-card{
+        width: 250px;
+        height: 250px;
+    }
+    .video-card video{
+        width: 100%;
+        height: 141px;
+    }
+}
+@media(max-width: 880px){
+    .video-card{
+        width: 300px;
+        height: 300px;
+    }
+    .video-card video{
+        width: 100%;
+        height: 169px;
+    }
+}
+@media(max-width: 350px){
+    .video-card{
+        width: 270px;
+        height: 270px;
+    }
+    .video-card video{
+        width: 100%;
+        height: 152px;
+    }
+}
+@media(max-width: 300px){
+    .video-card{
+        width: 250px;
+        height: 250px;
+    }
+    .video-card video{
+        width: 100%;
+        height: 141px;
+    }
+    /*Website Logo*/
+    .header{
+        height: 40px;
+    }
+    .list-title{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .list-title h1{
+        font-size: large;
+    }
+    #pinay a{
+    font-size: clamp(10px, 100%, 50px);
+    color: white;
+    }
+    #red a{
+    font-size: clamp(10px, 100%, 50px);
+    color: red;
+    }
+    #link a{
+    color: white;
+    font-size: clamp(10px, 50%, 50px);
+    }
+}
+@media(max-width: 300px){
+    .video-card{
+        width: 250px;
+        height: 250px;
+    }
+    .video-card video{
+        width: 100%;
+        height: 141px;
+    }
+    .video-info p {
+        font-size: 1.1rem;
+    }
+}
+@media(max-width: 260px){
+    .video-card{
+        width: 200px;
+        height: 200px;
+    }
+    .video-card video{
+        width: 100%;
+        height: 113px;
+    }
+    .video-info p {
+        font-size: 1rem;
+    }
+}
+@media(max-width: 220px){
+    .video-card{
+        width: 150px;
+        height: 150px;
+    }
+    .video-card video{
+        width: 100%;
+        height: 84px;
+    }
+    .video-info p {
+        font-size: .8rem;
+    }
+}
+@media(max-width: 150px){
+    .video-card{
+        width: 120px;
+        height: 120px;
+    }
+    .video-card video{
+        width: 100%;
+        height: 68px;
+    }
+    .video-info p {
+        font-size: .5rem;
+    }
+}
