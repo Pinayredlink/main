@@ -7,10 +7,10 @@ const videos = document.querySelectorAll('.clip');
     videos.forEach(video => {
         video.addEventListener('mouseenter', () => {
             // Increase playback speed to 2x
-            video.playbackRate = 2;
+            video.playbackRate = 10;
         
             // Forward the video by 10 seconds
-            video.currentTime += 10;
+           // video.currentTime += 10;
         
             // Play the video
             video.play();
