@@ -3,18 +3,25 @@
 
 /////-Auto Play Video Hover-/////
 const videos = document.querySelectorAll('.clip');
+    // Function to play 5 seconds, forward to 30 seconds, and play another 5 seconds
+function playAndForward() {
+    // Play the video for the first 5 seconds
+    video.play();
 
+    // Set a timeout to forward the video after 5 seconds
+    setTimeout(() => {
+        // Forward to 30 seconds
+        video.currentTime = 30;
+
+        // Set another timeout to play the video for the next 5 seconds
+        setTimeout(() => {
+            // Pause the video after playing for the next 5 seconds
+            video.pause();
+        }, 5000);
+    }, 5000);
+}
     videos.forEach(video => {
-        video.addEventListener('mouseenter', () => {
-            // Increase playback speed to 2x
-            video.playbackRate = 10;
-        
-            // Forward the video by 10 seconds
-           // video.currentTime += 10;
-        
-            // Play the video
-            video.play();
-        });
+        video.addEventListener('mouseenter', playAndForward);
     /*        video.addEventListener('mouseenter', () => {
             video.play();
         });  */
