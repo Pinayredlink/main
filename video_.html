@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>	</title>
+	<link rel="stylesheet" type="text/css" href="assets/styles/video_styles.css">
+</head>
+
+<body>
+
+<script src="assets/javascript/video_data.js"></script>
+<script src="assets/javascript/videoscript.js"></script>
+<script>createVideoCards(1, videosPerPage);</script>
+<script type="text/javascript">
+
+document.getElementById('video-player-title').textContent = localStorage.getItem('videoTitle');
+document.getElementById('player-video').src = localStorage.getItem('videoSrc');
+
+</script>
+
+</body>
+</html>
