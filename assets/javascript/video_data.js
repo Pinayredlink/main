@@ -42,7 +42,7 @@ const videoAds = [
 
 const adsLength = videoAds.length;
 const totalVideos = videoData.length;
-const videosPerPage = 5;
+const videosPerPage = 20;
 
 function generateVideoUrl() {
     const videoUrl = [];
