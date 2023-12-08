@@ -126,8 +126,8 @@ body{
     padding: 1px;
     background-color:black;
     position: absolute;
-    top: 1%;
-    right: 86%;
+    top: 68%;
+    right: 88%;
     color: rgba(225,225,225, .6);
 }
 #hidden-element{
@@ -211,7 +211,7 @@ body{
         font-size: 13px;
         padding: 2px;
         padding-left: 4px;
-        top: 1%;
-        right: 88%;
+        top: 68%;
+    	right: 88%;
     }
 }
