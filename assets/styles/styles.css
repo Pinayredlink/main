@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+    background-color: black;
+    position: relative;
+}
+a{
+    cursor: default;
+}
+/*Header*/
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(205, 7, 40, 0.2);
+}
+.header nav{
+    border-style: none;
+}
+.header nav ul li{
+    display: inline-block;
+}
+.header nav ul li a{
+    text-decoration: none;
+}
+
+/*Website Logo*/
+#pinay a{
+    font-size: 35px;
+    color: white;
+}
+#red a{
+    font-size: 35px;
+    color: red;
+}
+#link a{
+    color: white;
+    font-size: 20px;
+}
+
+.video-card-container{
+    position: relative;
+}
+
+/*Video-List*/
+.video-list{
+
+    text-align: center;
+	justify-content: center;
+/*	flex-wrap: wrap; */
+    position: relative; 
+}
+.video-link{
+    position: relative;
+}
+.list-title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(205, 7, 40, 0.5);
+}
+.video-card {
+    display: inline-block;
+    width: 290px;
+    height: 220px;
+    
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+}
+.video-card video:hover{
+    
+    box-shadow: 0 0 10px  rgba(205, 7, 40, 0.5);
+}
+.video-card video {
+    width: 100%;
+    height: 169px;
+    background-color:rgba(205, 7, 40, 0.09);
+    box-shadow: 0 0 2px  rgba(205, 7, 40, 0.5);
+    cursor: pointer;
+    position: relative;
+}
+.video-title {
+   /* background-color: red; */
+    margin: 5px;
+    position: relative;
+   
+}
+#duration{
+    font-size: 15px;
+    padding: 1px;
+    background-color:black;
+    position: absolute;
+    top: 68%;
+    right: 88%;
+    color: rgba(225,225,225, .6);
+}
+#hidden-element{
+    display: none;
+}
+
+.video-title{
+    margin: 0;
+    font-size: 1rem;
+    position: relative;
+    color: rgba(225,225,225, .6);
+    cursor: pointer;
+}
+.video-title:hover{
+    color: rgba(205, 7, 40, 0.5);
+}
+
+.button-container{
+    height: 40px;
+    width: 100%;
+    background-color: rgba(205, 7, 40, 0.2);
+}
+
+/*Responsive*/
+@media (max-width: 785px){
+    .video-title{
+        font-size: .9rem;  
+    }
+}
+
+@media (max-width: 450px){
+    .video-title{
+        font-size: .9rem;  
+    }
+    .list-title{
+        font-size: 10px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .header{
+        height: 35px;
+        width: 100%;
+        background-color: rgba(205, 7, 40, 0.2);
+    }
+    .header img{
+        height: 100%;
+        width: 38%;
+    }
+    #duration{
+        font-size: 13px;
+        padding: 2px;
+        padding-left: 4px;
+        top: 68%;
+        right: 88%;
+    }
+}
+
+#web-visits{
+    color: white;
+    font-size: 20px;
+    display: flex;
+}
