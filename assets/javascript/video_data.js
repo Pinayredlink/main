@@ -15,18 +15,29 @@ const videoData = [
 ];
 
 const videoAds = [
-    { adS: 'ads1.com'},
-    { adS: 'ads2.com'},
-    { adS: 'ads3.com'},
-    { adS: 'ads4.com'},
-    { adS: 'ads4.com'},
-    { adS: 'ads4.com'},
-    { adS: 'ads4.com'},
-    { adS: 'ads4.com'},
-    { adS: 'ads4.com'},
-    { adS: 'ads4.com'},
-    { adS: 'ads4.com'},
-    { adS: 'ads4.com'},
+    { adS: 'https://recutt.com/Vf13J/84723416'},
+    { adS: 'https://urlef.com/RpxUA/84723416'},
+    { adS: 'https://cutpu.com/8dPJo/84723416'},
+    { adS: 'https://shrtq.com/Xr9Co/84723416'},
+    { adS: 'https://moviesx.me/eFrnJ/84723416'},
+    { adS: 'https://watch.moviesx.me/BMOwC/84723416'},
+    { adS: 'https://paypou.com/teRkB/84723416'},
+    { adS: 'https://recutt.com/vHn/78784625'},
+    { adS: 'https://urlef.com/Ag0/78784625'},
+    { adS: 'https://cutpu.com/a3Q/78784625'},
+    { adS: 'https://shrtq.com/c1d/78784625'},
+    { adS: 'https://moviesx.me/Cbr/78784625'},
+    { adS: 'https://watch.moviesx.me/2wH/78784625'},
+    { adS: 'https://paypou.com/1md/78784625'},
+    { adS: 'https://recutt.com/uy7Q0/81008132'},
+    { adS: 'https://urlef.com/vEIfu/81008132'},
+    { adS: 'https://cutpu.com/34TLl/81008132'},
+    { adS: 'https://shrtq.com/pZv5C/81008132'},
+    { adS: 'https://moviesx.me/uxacB/81008132'},
+    { adS: 'https://watch.moviesx.me/fxv3w/81008132'},
+    { adS: 'https://paypou.com/LCvt7/81008132'},
+    
+  
 ]; 
 
 const adsLength = videoAds.length;
