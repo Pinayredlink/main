@@ -1,9 +1,9 @@
 
 const videoData = [
-        { duration: '02:19', info: 'Sa Cr pa ng highschool nag kantotan' },
+    { duration: '02:19', info: 'Sa Cr pa ng highschool nag kantotan' },
     { duration: '03:54', info: 'Ganda ng hugis ng yung katawan' },
     { duration: '02:05', info: 'Dumalaw yung GF ni construction worker part 1' },
-    { duration: '04:13', info: 'Dumalaw yung GF ni construction worker part 1' },
+    { duration: '04:13', info: 'Dumalaw yung GF ni construction worker part 2' },
     { duration: '04:51', info: 'Nahuli yung mag klasmate na nagkantotan sa classroom' },
     { duration: '07:19', info: 'Di na inabotan nang bahay yung kalibugan' },
     { duration: '05:17', info: 'Nag cutting class para mag kantutan' },
